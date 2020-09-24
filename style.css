@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+
+
+
+/* Header Part */
+.header {
+  background-color: #F0FFF0;
+}
+
+.logo , .logo-media{
+  width: 200px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .btn-success {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .logo-media {
+    display: none;
+  }
+}
+
+
+.nav_bg {
+background-color: #F0FFF0;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+#link {
+  color: #000000;
+  transition: all .2s;
+}
+
+#link:hover {
+  color: rgb(97, 97, 97);
+}
+
+.btn-success {
+  text-align: center;
+  width: 100px;
+  padding: 6px;
+  background-color: #21B573;
+  border-radius: 35px;
+  
+}
+
+.header_content {
+  padding: 60px 40px 80px 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .header_content {
+    padding: 30px 20px 70px 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header_content .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header_img {
+    padding: 35px 0 45px 0;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .header_img {
+    padding: 35px 0 45px 0;
+  }
+
+  .header_heading {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+
+  .logo-media {
+    width: 100px;
+    height: 40px;
+  }
+}
+
+.header_img {
+  width: 80%;
+}
+
+.header_highlight {
+  color: #21B573;
+}
+
+.header_heading {
+  font-weight: 700;
+  margin-top: -7px;
+  margin-bottom: 25px;
+}
+
+.ready {
+  color: #FD511A;
+}
+
+.school_btn {
+  padding: 5px 25px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #21B573;
+  border-radius: 35px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* about section */
+.about {
+  padding: 40px 150px 100px 150px;
+}
+ 
+.about .card-img-top {
+  width:70px;
+}
+ 
+.about .card {
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+  background-color: #F8FFFB;
+  transition: all .32s ease-in;
+  border: none;
+}
+
+@media only screen and (max-width: 860px) {
+  .about .card {
+   width: 230px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about .card {
+   width: 270px;
+  }
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #413960;
+}
+
+.about .card p {
+  color: #585859;
+}
+
+.about .card:hover {
+  transform: translateY(-5px) scale(1.05);
+  background-color: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Courses Section */
+.courses {
+  padding:  0 0 80px 0;
+}
+
+.courses_heading {
+  margin-bottom: 70px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #413960;
+}
+
+.courses .card-img-top {
+  width: 95%;
+  border-radius: 11px;
+  padding: 7px 15px;
+}
+
+.courses .card {
+  border-radius: 18px;
+  width:97%;
+  border: none;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in;
+}
+
+@media only screen and (max-width: 992px) {
+  .courses .card-body {
+    text-align: center;
+  }
+
+}
+
+.courses .card:hover {
+  transform: translateY(-5px) scale(1.05);
+  background-color: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.288);
+}
+
+.courses .card-body {
+  padding: 1rem;
+}
+
+.course_img {
+  width: 24px;
+}
+
+.course_info {
+  font-size: ;
+}
+
+.courses .margin-top {
+  margin-top: 0px;
+}
+
+/* Section Testemonial */
+.testimonial {
+  padding-bottom: 100px ;
+}
+
+.testimonial h2 {
+  color: #000000;
+}
+
+.testimonial_img {
+  width: 150px;
+  margin:  0 70px 0 130px; 
+}
+
+.testimonial_paragraph {
+  width: 50%;
+  margin-right: 200px;
+}
+
+@media only screen and (max-width: 991px) {
+  .testimonial_img {
+    width: 200px;
+    margin:  0 70px 0 100px; 
+  }
+  
+  .testimonial_paragraph {
+    width: 100%;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+   .testimonial_content {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: #2c2b30;
+  color: #d3d0d0;
+  padding: 30px 0 20px 0;
+}
+
+.footer_paragraph {
+  margin-top: 100px;
+}
+
+.footer_collection {
+  margin-left: 70px;
+  list-style: none;
+}
+
+.footer_item-header {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer_collection {
+    margin-left: 0;
+  }
+ }
