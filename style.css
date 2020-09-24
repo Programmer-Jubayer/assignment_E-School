@@ -294,6 +294,11 @@ background-color: #F0FFF0;
   font-weight: 700;
 }
 
+.footer_item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1200px) {
   .footer_collection {
     margin-left: 0;
